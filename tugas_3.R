@@ -20,7 +20,7 @@ var_kategori <- names(data_weather)[sapply(data_weather, function(x) is.characte
 
 # 2. Antarmuka Pengguna (User Interface / UI)
 ui <- fluidPage(
-  titlePanel("Aplikasi Visualisasi Data Interaktif Cuaca (MSIM4310)"),
+  titlePanel("Aplikasi Visualisasi Data Interaktif Cuaca (STSI4204)"),
   
   sidebarLayout(
     sidebarPanel(
